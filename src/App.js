@@ -8,7 +8,8 @@ function App() {
  /* Background */
  <div
  className="relative w-screen h-screen bg-cover bg-center flex flex-col"
- style={{ backgroundImage: "url('public/background.jpg')" }}
+ style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/background.jpg')` }}
+
 >
  {/* Background Overlay */}
  <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black"></div>
