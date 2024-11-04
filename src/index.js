@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/Cacton12-github.io",
+    path: "/Portfolio",
     element: <App />,
   },
 ]);
