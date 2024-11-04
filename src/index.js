@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./src/App";
-import reportWebVitals from "./src/reportWebVitals";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Projects from "./src/Projects";  // Import your Projects component
-import ContactMe from "./src/Contact"; // Import your ContactMe component
+import Projects from "./Projects";  // Import your Projects component
+import ContactMe from "./Contact"; // Import your ContactMe component
 
 const router = createBrowserRouter([
   {
