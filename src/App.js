@@ -11,10 +11,10 @@ function App() {
  style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/background.jpg')` }}
 >
  {/* Background Overlay */}
- <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black"></div>
+ <div className="absolute inset-0 bg-gradient-to-b from-black/75 to-black"></div>
 
  {/* Navbar */}
- <div className="relative z-10">
+ <div className="relative z-20">
    <NavBar></NavBar>
  </div>
 

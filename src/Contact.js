@@ -8,10 +8,10 @@ function Contact() {
         /* Background */
       <div
         className="relative w-screen h-screen bg-cover bg-center flex flex-col"
-        style={{ backgroundImage: "url('/background.jpg')" }}
+        style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/background.jpg')` }}
       >
         {/* Background Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/75 to-black"></div>
 
         {/* Navbar */}
         <div className="relative z-10">
