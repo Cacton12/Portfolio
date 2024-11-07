@@ -20,11 +20,13 @@ function Projects() {
             {/* Main Content */}
             <div className="relative z-10 flex-grow">
                 <div className="flex flex-wrap justify-center items-center w-full h-full px-4 sm:px-8 py-4">
-                    <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center p-4">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl raleway-regular text-emerald-600"></h1>
-                        <p className="mt-2 text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed">
-                    
-                        </p>
+                    <div className="grid grid-cols-2 gap-4 w-full h-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center p-4">
+                        <div className="bg-red-500 flex">
+                            <img src={`${process.env.PUBLIC_URL}/stock.jpg`} alt="" />
+                        </div>
+                        <div className="bg-red-500 flex"></div>
+                        <div className="bg-red-500 flex"></div>
+                        <div className="bg-red-500 flex"></div>
                     </div>
                 </div>
             </div>
