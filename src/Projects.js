@@ -1,39 +1,47 @@
 import NavBar from "./Navbar";
 import Footer from "./Footer";
-import "./index.css";
 
 function Projects() {
     return (
-        /* Background */
-        <div
-            className="relative w-screen h-screen bg-cover bg-center flex flex-col"
-            style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/background.jpg')` }}
-        >
-            {/* Background Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/75 to-black"></div>
-
-            {/* Navbar */}
-            <div className="relative z-20">
-                <NavBar></NavBar>
+        <div className="relative w-screen min-h-screen bg-black flex flex-col">
+            {/* Background Image Section */}
+            <div
+                className="w-full h-[50vh] bg-cover bg-center"
+                style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/background.jpg')` }}
+            >
+                {/* Navbar */}
+                <div className="relative z-20">
+                    <NavBar />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-b from-black/75 to-transparent"></div>
             </div>
 
-            {/* Main Content */}
-            <div className="relative z-10 flex-grow">
+            {/* Main Content on Black Background */}
+            <div className="relative z-10 flex-grow bg-black">
                 <div className="flex flex-wrap justify-center items-center w-full h-full px-4 sm:px-8 py-4">
-                    <div className="grid grid-cols-2 gap-4 w-full h-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center p-4">
-                        <div className="bg-red-500 flex">
-                            <img src={`${process.env.PUBLIC_URL}/stock.jpg`} alt="" />
-                        </div>
-                        <div className="bg-red-500 flex"></div>
-                        <div className="bg-red-500 flex"></div>
-                        <div className="bg-red-500 flex"></div>
+                    <div className="grid gap-4 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center p-4">
+                        {[...Array(6)].map((_, index) => (
+                            <div
+                                key={index}
+                                className={`bg-red-500 flex p-4 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} items-center sm:flex-col md:flex-row`}
+                            >
+                                <img
+                                    src={`${process.env.PUBLIC_URL}/stock.jpg`}
+                                    alt="Placeholder"
+                                    className="w-full md:w-1/2 h-auto object-cover"
+                                />
+                                <div className="w-full md:w-1/2 flex items-center justify-center p-4">
+                                    <p className="text-white text-sm md:text-base lg:text-lg">Placeholder Text for Row {index + 1}</p>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
 
             {/* Footer */}
             <div className="relative z-10 mt-auto">
-                <Footer></Footer>
+                <Footer />
             </div>
         </div>
     );

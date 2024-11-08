@@ -17,21 +17,21 @@ const NavBar = () => {
   </div>
 
   {/* Regular navbar links for larger screens */}
-  <div className="hidden md:flex space-x-4 pt-4 text-emerald-600">
-    <Link to="/" className="bg-gray-300 rounded-md h-8 px-2 mr-3 raleway-bold">
-      <i className='bx bxs-home mr-1 pl-0'></i>Home
+  <div className="hidden md:flex space-x-4 pt-4 text-emerald-600 items-center">
+    <Link to="/" className="bg-gray-300 rounded-md h-8 px-2 mr-3 raleway-regular pt-1">
+      <i className='bx bxs-home mr-1 pl-0 '></i>Home
     </Link>
-    <Link to="/projects" className="bg-gray-300 rounded-md h-8 px-2 mr-3 raleway-bold">
+    <Link to="/projects" className="bg-gray-300 rounded-md h-8 px-2 mr-3 raleway-regular pt-1">
       <i className='bx bxs-book mr-1 pl-0'></i>Projects
     </Link>
-    <Link to="/contact" className="bg-gray-300 rounded-md h-8 px-2 mr-3 raleway-bold">
+    <Link to="/contact" className="bg-gray-300 rounded-md h-8 px-2 mr-3 raleway-regular pt-1">
       <i className='bx bxs-phone mr-1 pl-0'></i>Contact Me
     </Link>
   </div>
 
   {/* Menu icon for smaller screens */}
   <div className="md:hidden">
-    <button onClick={toggleMenu} className="text-emerald-600 text-3xl bg-gray-300 rounded-md">
+    <button onClick={toggleMenu} className="text-emerald-600 text-3xl bg-gray-300 rounded-md pt-1">
       <i className="bx bx-menu"></i>
     </button>
   </div>

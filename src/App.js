@@ -6,10 +6,11 @@ import Footer from "./Footer";
 function App() {
   return (
  /* Background */
- <div
- className="relative w-screen h-screen bg-cover bg-center flex flex-col"
- style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/background.jpg')` }}
+<div
+  className="relative w-screen min-h-screen bg-cover bg-center flex flex-col bg-black"
+  style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/background.jpg')` }}
 >
+
  {/* Background Overlay */}
  <div className="absolute inset-0 bg-gradient-to-b from-black/75 to-black"></div>
 
