@@ -45,13 +45,13 @@ function Projects() {
               <p className="text-sm text-gray-600 pb-2">This project conencts to a MySQL database and stores hotel reservations</p>
             </div>
           </a>
-          <a href="https://github.com/Cacton12/Portfolio" className="w-full md:w-1/4 flex flex-col items-center justify-center bg-zinc-100 rounded-md hover:scale-90 transition duration-500">
+          <a href="https://github.com/Cacton12/Portfolio" className="w-full md:w-1/4 flex flex-col items-center justify-center bg-zinc-100 rounded-md hover:scale-90 transition duration-500 mb-20 sm:mb-8 md:mb-10 mx-4">
             <div className="relative h-60">
               <img src={`${process.env.PUBLIC_URL}/Portfolio.png`} alt="Hotel Reservation" className="h-full w-full object-cover" />
             </div>
-            <div className="text-center">
+            <div className="text-center mt-4">
               <h3 className="text-xl font-semibold">Portfolio</h3>
-              <p className="text-sm text-gray-600 mb-10">This project is this website which was built using react and tailwindcss then deployed to github pages</p>
+              <p className="text-sm text-gray-600 mb-4 sm:mb-6">This project is this website which was built using React and Tailwind CSS then deployed to GitHub Pages.</p>
             </div>
           </a>
         </div>
