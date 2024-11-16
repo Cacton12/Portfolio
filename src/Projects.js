@@ -56,6 +56,34 @@ function Projects() {
           </a>
         </div>
       </div>
+      <div className="relative z-10 mt-12 mb-12">
+        <h1 className="text-emerald-600 text-3xl font-semibold flex items-center justify-center mb-1">My Skills</h1>
+        <div className="flex w-full bg-black justify-center">
+          <ul className="list-disc flex flex-wrap justify-center space-x-8 px-4">
+            <li className="text-white mb-2">C#</li>
+            <li className="text-white mb-2">JavaScript</li>
+            <li className="text-white mb-2">Java SE (Java Ant, Maven, JavaFX)</li>
+            <li className="text-white mb-2">React</li>
+            <li className="text-white mb-2">PHP</li>
+            <li className="text-white mb-2">SQL</li>
+            <li className="text-white mb-2">Bootstrap</li>
+            <li className="text-white mb-2">Tailwind CSS</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="relative z-10 mt-12 mb-12">
+        <h1 className="text-emerald-600 text-3xl font-semibold flex items-center justify-center mb-1">My Experience</h1>
+        <div className="flex w-full bg-black justify-center items-center px-4">
+          <p className="text-white text-center md:text-left md:px-20">
+            I worked as a laborer for the City of Fredericton Parks and Trees and the University of New Brunswick, where I performed various tasks including mowing grass, trimming, pole-sawing, operating a brush saw, and driving one-ton trucks.
+            Although these tasks were not directly related to the IT field, they taught me valuable skills. I learned to be responsible, aware, and a problem solver, finding quick solutions to challenges that arose.
+            Each day brought new tasks, so I had to adapt quickly. Additionally, I worked around the public frequently, which helped me engage with them and further develop my charismatic personality.
+          </p>
+        </div>
+      </div>
+
+
       {/* Footer */}
       <div className="relative z-10 mt-auto">
         <Footer></Footer>
