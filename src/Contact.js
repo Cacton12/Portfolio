@@ -44,6 +44,13 @@ function Contact() {
               <li><a href="https://www.linkedin.com/in/colby-acton-93740b286/" className="text-gray-400 hover:text-white">LinkedIn</a></li>
               </ul>
             </div>
+            {/* Download my resume */}
+            <div>
+              <h3 className="text-lg font-semibold text-emerald-600 mb-2">Download My Resume:</h3>
+              <ul className="flex justify-center space-x-6">
+              <li><a href="Resume-Colby-Acton.docx" download className="text-gray-400 hover:text-white">Resume</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

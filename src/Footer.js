@@ -21,6 +21,7 @@ const Footer = () => {
           <h3 className="text-lg md:text-xl font-semibold mb-2 text-emerald-600">Contact Me</h3>
           <p className="text-gray-400 text-sm md:text-base">Email: Colbyacton12@icloud.com</p>
           <p className="text-gray-400 text-sm md:text-base">Phone: (506) 536-7494</p>
+          <a href="Resume-Colby-Acton.docx" download className="text-gray-400 hover:text-white">Download Resume</a>
         </div>
 
         {/* Socials Section */}
