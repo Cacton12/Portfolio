@@ -23,7 +23,7 @@ function Projects() {
         </div>
         <div className="flex flex-wrap justify-evenly place-items-center w-full h-full px-4 sm:px-8 py-4 gap-2">
           <a href="https://github.com/Cacton12/Student_Scores" className="w-full md:w-1/4 flex flex-col items-center justify-center bg-zinc-100 rounded-md hover:scale-90 transition duration-500">
-            <img src={`${process.env.PUBLIC_URL}/Student_Scores.png`} alt="Student Scores" className="h-60" />
+            <img src={`${process.env.PUBLIC_URL}/Student_Scores.png`} alt="Student Scores" className="h-60 rounded-md" />
             <div className="text-center mt-4">
               <h3 className="text-xl font-semibold">Student Scores</h3>
               <p className="text-sm text-gray-600 pb-2"> My Student Scores project was created in c# and is used to store students and their scores</p>
@@ -33,21 +33,21 @@ function Projects() {
             <img src={`${process.env.PUBLIC_URL}/Research_Assignment_Website.png`} alt="Research Assignment Website" className="h-60 rounded-md" />
             <div className="text-center mt-4">
               <h3 className="text-xl font-semibold">Research Assignment Website</h3>
-              <p className="text-sm text-gray-600 pb-2">This website was made using bootstrap and was used to show my knowledge of DNS and ablility to create a website</p>
+              <p className="text-sm text-gray-600 pb-2">This website was made using bootstrap and shows my knowledge of DNS and ablility to create a website</p>
             </div>
           </a>
           <a href="https://github.com/Cacton12/Hotel_Reservation" className="w-full md:w-1/4 flex flex-col items-center justify-center bg-zinc-100 rounded-md hover:scale-90 transition duration-500">
             <div className="relative h-60">
-              <img src={`${process.env.PUBLIC_URL}/Hotel_Reservation.png`} alt="Hotel Reservation" className="h-full w-full object-cover" />
+              <img src={`${process.env.PUBLIC_URL}/Hotel_Reservation.png`} alt="Hotel Reservation" className="h-full w-full object-cover rounded-md" />
             </div>
             <div className="text-center">
               <h3 className="text-xl font-semibold">Hotel Reservation</h3>
-              <p className="text-sm text-gray-600 pb-2">This project conencts to a MySQL database and stores hotel reservations</p>
+              <p className="text-sm text-gray-600 pb-2">This project was made using Java and conencts to a MySQL database and stores hotel reservations</p>
             </div>
           </a>
           <a href="https://github.com/Cacton12/Portfolio" className="w-full md:w-1/4 flex flex-col items-center justify-center bg-zinc-100 rounded-md hover:scale-90 transition duration-500 mb-20 sm:mb-8 md:mb-10 mx-4">
             <div className="relative h-60">
-              <img src={`${process.env.PUBLIC_URL}/Portfolio.png`} alt="Hotel Reservation" className="h-full w-full object-cover" />
+              <img src={`${process.env.PUBLIC_URL}/Portfolio.png`} alt="Hotel Reservation" className="h-full w-full object-cover rounded-md" />
             </div>
             <div className="text-center mt-4">
               <h3 className="text-xl font-semibold">Portfolio</h3>
